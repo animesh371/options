@@ -286,8 +286,8 @@ end
 
 
 
-Devise::Mailer.send(:include, EmailTemplateHelper)
+#Devise::Mailer.send(:include, EmailTemplateHelper)
 
-Devise::Mailer.send(:helper, EmailTemplateHelper)
+#Devise::Mailer.send(:helper, EmailTemplateHelper)
 
 end
